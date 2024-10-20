@@ -10,8 +10,17 @@ Antes de executar o projeto, certifique-se de que você tenha o seguinte instala
 - Um IDE ou editor de texto (como IntelliJ IDEA, Eclipse ou VSCode) 🖥️
 
 ## Estrutura do Projeto 📂
-     ´´´ bash
-    /criptografia-aes │ ├── src │ └── CriptografiaAES.java # Classe principal com a lógica de criptografia │ ├── README.md # Este arquivo └── pom.xml # (opcional)
+
+     criptografia-aes/
+     │
+     ├── src/                       # Código-fonte do projeto Java
+     │   └── CriptografiaAES.java    # Classe principal com a lógica de criptografia
+     │
+     ├── gerar_json.rb               # Código para gerar arquivos JSON
+     ├── main.rb                     # Arquivo principal que executa a lógica do projeto Ruby
+     └── README.md                   # Documentação do projeto
+     └── pom.xml                     # (opcional) Arquivo de configuração do Maven
+
 
 
 ## Funcionalidades 🚀
